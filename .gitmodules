@@ -1,0 +1,15 @@
+[submodule "libvirt"]
+	path = libvirt
+	url = https://github.com/SnabbCo/libvirt
+[submodule "qemu"]
+	path = qemu
+	url = http://github.com/SnabbCo/qemu
+[submodule "nova"]
+	path = nova
+	url = http://github.com/SnabbCo/nova
+[submodule "neutron"]
+	path = neutron
+	url = http://github.com/SnabbCo/neutron
+[submodule "snabbswitch"]
+	path = snabbswitch
+	url = http://github.com/SnabbCo/snabbswitch
