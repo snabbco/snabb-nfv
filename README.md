@@ -23,9 +23,9 @@ nova version 2014.1.2 with patches:
 a4791b6 Define constants for the VIF model types
 a92c015 libvirt: add support for memory backing parameters
 
-libvirt version v1.2.7 with patches:
-00b1595 qemu: create qemu/vhostuser folder
-043e164 qemu: hugepage support not using NUMA not dependent on NUMA topology
+libvirt version v1.2.8 with patches:
+ab44fa2 qemu: create qemu/vhostuser folder
+940dbda qemu: hugepage support not using NUMA not dependent on NUMA topology
 
 qemu version v2.1.0 with patches:
 04b3216 Increase hard-coded Virtio vring size from 256 to 8192.

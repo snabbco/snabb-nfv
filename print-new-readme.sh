@@ -18,7 +18,7 @@ function show_patches() {
 echo '```'
 show_patches neutron 2014.1.2
 show_patches nova 2014.1.2
-show_patches libvirt v1.2.7
+show_patches libvirt v1.2.8
 show_patches qemu v2.1.0
 show_patches snabbswitch v2014.09
 echo '```'
