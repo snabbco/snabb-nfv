@@ -32,6 +32,6 @@ qemu version v2.1.0 with patches:
 f41eecc vhost-user: add multi queue support
 1904434 Add G_IO_HUP handler for socket chardev
 
-snabbswitch version v2014.09 with patches:
+snabbswitch version v2014.09.1 with patches:
 
 ```
