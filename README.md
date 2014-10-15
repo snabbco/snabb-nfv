@@ -28,6 +28,8 @@ ab44fa2 qemu: create qemu/vhostuser folder
 940dbda qemu: hugepage support not using NUMA not dependent on NUMA topology
 
 qemu version v2.1.0 with patches:
+60fe01f vhost-user: fix VIRTIO_NET_F_MRG_RXBUF negotiation
+31aac9d vhost_net: init acked_features to backend_features
 04b3216 Increase hard-coded Virtio vring size from 256 to 8192.
 f41eecc vhost-user: add multi queue support
 1904434 Add G_IO_HUP handler for socket chardev
