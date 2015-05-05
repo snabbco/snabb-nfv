@@ -10,14 +10,15 @@ echo '### Summary of component versions and patches'
 echo
 
 function show_patches() {
-    echo "$1 version $2 with patches:"
-    (cd $1; git log --oneline $2..)
+    base=$(cd $1; git describe --tags $2)
+    echo "$1 version $base with patches:"
+    (cd $1; git log --no-decorate --oneline $2..)
     echo
 }
 
 echo '```'
-show_patches neutron 2014.1.2
-show_patches nova 2014.1.2
+show_patches neutron 4076e7c
+show_patches nova cc86ef5
 show_patches libvirt v1.2.8
 show_patches qemu v2.1.0
 show_patches snabbswitch v2014.09.1
