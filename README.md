@@ -27,7 +27,7 @@ ebbfd68 unit tests: add bind_port tests
 d5ca643 Extended ML2 mechanism_snabb to perform 'zone' assignment.
 43aa22e Snabb NFV mechanism driver for ML2
 
-nova version 2014.1.2-188-gcc86ef5 with patches:
+nova version 2014.1.4-3-gcc86ef5 with patches:
 b45de64 libvirt: enable hugepages config from flavor mem_hugepages
 7b16b30 Add VIF_VHOSTUSER
 8386674 Define constants for the VIF model types
@@ -42,6 +42,6 @@ d57042c vhost-user: Send VHOST_RESET_OWNER on vhost stop
 dc5aed0 vhost-user: fix VIRTIO_NET_F_MRG_RXBUF negotiation
 f393aea Add G_IO_HUP handler for socket chardev
 
-snabbswitch version v2014.09.1 with patches:
+snabbswitch version v2015.05-6-g40ec58b with patches:
 
 ```
