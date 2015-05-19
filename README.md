@@ -42,6 +42,6 @@ d57042c vhost-user: Send VHOST_RESET_OWNER on vhost stop
 dc5aed0 vhost-user: fix VIRTIO_NET_F_MRG_RXBUF negotiation
 f393aea Add G_IO_HUP handler for socket chardev
 
-snabbswitch version v2015.05-67-g3a71bac with patches:
+snabbswitch version v2015.5.nfv1 with patches:
 
 ```
