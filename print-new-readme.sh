@@ -21,6 +21,6 @@ show_patches neutron 4076e7c
 show_patches nova cc86ef5
 show_patches libvirt v1.2.8
 show_patches qemu v2.1.0
-show_patches snabbswitch v2015.5.nfv1
+show_patches snabbswitch v2015.05.nfv1
 echo '```'
 
