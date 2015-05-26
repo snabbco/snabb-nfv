@@ -13,6 +13,7 @@ NFV.
 
 ```
 neutron version 2014.1.3-79-g4076e7c with patches:
+10384d6 mechanism_snabb: Fix LOG.debug missing parameter
 5459731 mech snabb: add a list of "used" IPs for each zone definition
 1acb2a5 mech_snabb: store profile:bindings in vif_details
 df337ee mech snabb: config format is JSON
